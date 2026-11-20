@@ -34,6 +34,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
     private bool jumpReleased;
     private bool wasGrounded;
     private bool isGrounded;
+    public AudioSource audioSource;
 
     [Header("Graphics")]
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -166,6 +167,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
             Debug.Log("Jump!");
             jumpInput = true;
             jumpReleased = false;
+            audioSource.Play();
         }
 
         if (context.canceled && controlEnabled)

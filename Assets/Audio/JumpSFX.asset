@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8493233460850897988
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_armour_05_{-8493233460850897988}
+  m_AudioClip: {fileID: 8300000, guid: 14c404d512a7c1d4fb99dd93babac330, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7282025596141308242
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_armour_04_{-7282025596141308242}
+  m_AudioClip: {fileID: 8300000, guid: 7c60dd81809a3e944b8a8cb5502058aa, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5011324517541935161
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_armour_02_{-5011324517541935161}
+  m_AudioClip: {fileID: 8300000, guid: 598dc89f9c0ec75429921aaad2f7e06e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-396311133727824488
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_armour_03_{-396311133727824488}
+  m_AudioClip: {fileID: 8300000, guid: 87d13399802062848aabe5b90e9c2d13, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JumpSFX
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -150, y: 99.99991}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 9004390422143087860}
+  - {fileID: -5011324517541935161}
+  - {fileID: -396311133727824488}
+  - {fileID: -7282025596141308242}
+  - {fileID: -8493233460850897988}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &9004390422143087860
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_armour_01_{9004390422143087860}
+  m_AudioClip: {fileID: 8300000, guid: 952c85ea9efb5964f9a4ea08dc34e2d5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
