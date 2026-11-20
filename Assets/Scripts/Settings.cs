@@ -3,9 +3,12 @@ using UnityEngine;
 public class Settings : MonoBehaviour
 {
     public GameObject SettingsPanel;
-    private bool SettingsOpen;
+    public bool SettingsOpen;
 
-    // Update is called once per frame
+    public void SettingsOpenOff()
+    {
+        SettingsOpen = false;
+    }
     public void OpenMenu()
     {
         if (!SettingsOpen)
