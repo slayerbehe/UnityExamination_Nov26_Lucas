@@ -3,7 +3,6 @@ using TMPro;
 public class CoinCounter : MonoBehaviour
 {
     public TextMeshProUGUI coinText;
-    public GameObject questTracker;
     public GameObject timerText;
     public int coinCollected;
     public bool done = false;
@@ -12,7 +11,6 @@ public class CoinCounter : MonoBehaviour
     {
         if (done == true)
         {
-            questTracker.GetComponent<QuestTracker>().completed = true;
             timerText.SetActive(true);
             gameObject.GetComponent<UnityEventAfterTimer>().StartTimer();
             done = false;

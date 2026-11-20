@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   coinText: {fileID: 539660114}
-  questTracker: {fileID: 4081830110831306971}
+  questTracker: {fileID: 0}
   timerText: {fileID: 88879305}
   coinCollected: 0
   done: 0
@@ -1421,68 +1421,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b08dd8131750829499cd02b5ce12dfb2, type: 3}
---- !u!1001 &4081830110831306970
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 550.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 252.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2834417519279092415, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4037806432818737240, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-      propertyPath: m_Name
-      value: QuestTracker
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
---- !u!1 &4081830110831306971 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4037806432818737240, guid: 976a6a3747fb4274fbdcf0433374c15a, type: 3}
-  m_PrefabInstance: {fileID: 4081830110831306970}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1496,4 +1434,3 @@ SceneRoots:
   - {fileID: 281049366}
   - {fileID: 1141772855}
   - {fileID: 605999894}
-  - {fileID: 4081830110831306970}

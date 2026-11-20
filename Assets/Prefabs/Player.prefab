@@ -184,6 +184,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 4294967295
+  audioSource: {fileID: 8936001346597792194}
   spriteRenderer: {fileID: 6600035306116337329}
   animator: {fileID: 0}
 --- !u!114 &361051708754140362
@@ -426,9 +427,9 @@ AudioSource:
   m_GameObject: {fileID: 8069869394972921990}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -6905443632588893729, guid: 09fbf387a5d5420438e131b6dedafbaf, type: 2}
+  OutputAudioMixerGroup: {fileID: -7547321635022234767, guid: 09fbf387a5d5420438e131b6dedafbaf, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 357961ee8ea490b47b333f598089d046, type: 3}
+  m_Resource: {fileID: 6418180475301049370, guid: b4a4d57c082914d43af5432169e95a5b, type: 2}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
